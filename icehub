@@ -1,0 +1,12 @@
+local Player = game:GetService("Players").LocalPlayer
+local BlackListTable = {
+	[1723646110] = {
+		["reason"] = "Tu fait le malin avec moi ?"
+	};
+}
+
+local BlackListCheck = BlackListTable[Player.UserId]
+
+if BlackListCheck then
+	Player:Kick("Banned Reason: "..BlackListTable[Player.Userid]["reason"])
+end
