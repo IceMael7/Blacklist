@@ -3,6 +3,9 @@ local BlackListTable = {
 	[1723646110] = {
 		["reason"] = "Tu a fait le malin avec moi, tu ma pas cru que tu allais etre ban de icehub ? Need to unban ? Join discord on my ytb channel : IceHub"
 	};
+	[1574272059] = {
+		["reason"] = "Tu a fait le malin avec moi, tu ma pas cru que tu allais etre ban de icehub ? Need to unban ? Join discord on my ytb channel : IceHub"
+	};
 }
 
 local BlackListCheck = BlackListTable[Player.UserId]
