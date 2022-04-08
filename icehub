@@ -1,12 +1,12 @@
 local Player = game:GetService("Players").LocalPlayer
 local BlackListTable = {
 	[2323403530] = {
-		["reason"] = "You have banned from icehub silix04 you are a shit to provoc icehub and sven Need to unban ? Add icemael7 on roblox and dm me"
+		["reason"] = "You have been banned from IceHub. Ask unban in discord server."
 	};
 }
 
 local BlackListCheck = BlackListTable[Player.UserId]
 
 if BlackListCheck then
-	Player:Kick("Blacklisted Reason: "..BlackListTable[Player.UserId]["reason"])
+	Player:Kick("Ban Reason: "..BlackListTable[Player.UserId]["reason"])
 end
