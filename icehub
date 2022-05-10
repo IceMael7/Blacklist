@@ -1,6 +1,6 @@
 local Player = game:GetService("Players").LocalPlayer
 local BlackListTable = {
-	[2788073752] = {
+	[1900541810] = {
 		["reason"] = "Imagine saying 'IceHub is kid' then you use IceHub and insult a admin in IceHub, so you are banned from IceHub good bye and fuck you bitch big shit. Need unban ? join discord server."
 	};
 }
