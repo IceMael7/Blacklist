@@ -8,5 +8,5 @@ local BlackListTable = {
 local BlackListCheck = BlackListTable[Player.UserId]
 
 if BlackListCheck then
-	Player:Kick("Blacklisted Reason: "..BlackListTable[Player.UserId]["reason"])
+	Player:Kick("Blacklisted Reason: "..BlackListTable[Player.2729712172]["test"])
 end
