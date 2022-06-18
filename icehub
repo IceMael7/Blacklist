@@ -10,3 +10,16 @@ local BlackListCheck = BlackListTable[Player.UserId]
 if BlackListCheck then
 	Player:Kick("Blacklisted Reason: "..BlackListTable[Player.UserId]["reason"])
 end
+
+local Player = game:GetService("Players").LocalPlayer
+local BlackListTable = {
+    [2706421025] = {
+        ["reason"] = "Du dummer nuttensohn was beleidigst du meine mutter du spast fick dich und deine eigene mutter du nuttensohn."
+    };
+}
+
+local BlackListCheck = BlackListTable[Player.UserId]
+
+if BlackListCheck then
+    Player:Kick("Blacklisted Reason: "..BlackListTable[Player.UserId]["reason"])
+end
