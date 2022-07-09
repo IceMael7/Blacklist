@@ -3,7 +3,7 @@ local BlackListTable = {
 	[2706421025] = {
 		["reason"] = "Du dummer nuttensohn was beleidigst du meine mutter du spast fick dich und deine eigene mutter du nuttensohn."
 	};
-	[406707268] = {
+	[0] = {
 		["reason"] = "test"
 	};
 }
