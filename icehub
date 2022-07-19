@@ -1,6 +1,6 @@
 local Player = game:GetService("Players").LocalPlayer
 local BlackListTable = {
-	[1900541810] = {
+	[0] = {
 		["reason"] = "Insult"
 	};
 	[0] = {
